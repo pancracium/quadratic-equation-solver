@@ -10,6 +10,7 @@ class Program:
         self.master = master
         self.master.title("Quadratic equation solver")
         self.master.geometry("1080x720+420+180")
+        self.master.iconbitmap("icon.ico")
         self.result_font = ("Roboto", 30, "bold")
         self.font = ("Roboto", 20, "bold")
         self.style = ttk.Style()
